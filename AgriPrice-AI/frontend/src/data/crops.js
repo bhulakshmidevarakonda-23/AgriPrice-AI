@@ -14,11 +14,6 @@ const crops = {
     price: "₹7,500 / Quintal",
     market: "Warangal Market",
   },
-  maize: {
-    name: "🌽 Maize",
-    price: "₹2,350 / Quintal",
-    market: "Karimnagar Market",
-  },
   tomato: {
     name: "🍅 Tomato",
     price: "₹1,800 / Quintal",
@@ -26,12 +21,17 @@ const crops = {
   },
   onion: {
     name: "🧅 Onion",
-    price: "₹2,100 / Quintal",
+    price: "₹2,400 / Quintal",
     market: "Kurnool Market",
   },
+  maize: {
+    name: "🌽 Maize",
+    price: "₹2,100 / Quintal",
+    market: "Karimnagar Market",
+  },
   turmeric: {
-    name: "🟡 Turmeric",
-    price: "₹12,500 / Quintal",
+    name: "🌿 Turmeric",
+    price: "₹11,500 / Quintal",
     market: "Nizamabad Market",
   },
   groundnut: {
@@ -44,10 +44,10 @@ const crops = {
     price: "₹350 / Quintal",
     market: "Vijayawada Market",
   },
-  banana: {
-    name: "🍌 Banana",
-    price: "₹2,400 / Quintal",
-    market: "Eluru Market",
+  sunflower: {
+    name: "🌻 Sunflower",
+    price: "₹5,600 / Quintal",
+    market: "Mahabubnagar Market",
   }
 };
 

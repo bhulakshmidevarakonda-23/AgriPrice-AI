@@ -1,14 +1,16 @@
 function Navbar() {
   return (
-    <nav className="bg-green-700 text-white flex justify-between items-center px-8 py-4 shadow-lg">
-      <h1 className="text-2xl font-bold">🌾 AgriPrice AI</h1>
+    <nav className="bg-green-800 text-white shadow-lg">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-8 py-4">
+        <h1 className="text-3xl font-bold">🌾 AgriPrice AI</h1>
 
-      <ul className="flex gap-6">
-        <li>Home</li>
-        <li>Crop Prices</li>
-        <li>AI Prediction</li>
-        <li>Market Comparison</li>
-      </ul>
+        <ul className="flex gap-8 font-semibold">
+          <li className="hover:text-yellow-300 cursor-pointer">Home</li>
+          <li className="hover:text-yellow-300 cursor-pointer">Features</li>
+          <li className="hover:text-yellow-300 cursor-pointer">News</li>
+          <li className="hover:text-yellow-300 cursor-pointer">Contact</li>
+        </ul>
+      </div>
     </nav>
   );
 }
